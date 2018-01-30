@@ -1,0 +1,10 @@
+server:
+  port: 4102
+
+eureka:
+  client:
+    service-url.defaultZone: http://localhost:3100/eureka/
+
+spring:
+  application:
+    name: lorentz
