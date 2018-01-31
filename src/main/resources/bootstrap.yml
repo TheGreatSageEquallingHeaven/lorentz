@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: lorentz
+  cloud:
+    config:
+      laber: master
+      uri: http://localhost:6100/
